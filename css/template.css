@@ -65,7 +65,9 @@ nav a:hover{
 
 .info p {
 	text-align: justify;
-}.info img {
+}
+
+.info img {
 	max-width: 90vh;
 	align-self: center;
 }	

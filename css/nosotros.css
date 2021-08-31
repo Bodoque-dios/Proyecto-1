@@ -14,13 +14,6 @@ header {
 	font-size: xx-large;
 }
 
-
-
-main {
-	height: 100%;
-
-}
-
 body {
 	min-height: 100%;
 	background-color:whitesmoke;
@@ -38,10 +31,6 @@ body {
 	max-width: 30vw;
 }
 
-nav {
-	
-}
-
 nav a {
 	text-decoration: none;
 	color: black;
@@ -55,6 +44,13 @@ nav a:hover{
 	background-color: wheat;
 }
 
+main {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .titulo {
 /* 	background-color: #999596d2; */
 	display: flex;
@@ -62,27 +58,42 @@ nav a:hover{
 	margin:   10px 100px 10px 100px ;
 }
 
-.botones {
-	margin: 20px;
+.info  {
+	display: flex;
+	flex-direction: row;
+
+	margin:0 15vw 0 15vw;
+}
+/* Margin */
+/* Arriba | Derecha | Abajo | Izquierda */
+.info p {
+	max-width: 40vw;
+	text-align: center;
+	margin: 0 3vw 0 3vw ;
+}
+
+.integrantes {
 	display: flex;
 	flex-direction: space-between;
-}
-
-.boton {
 	margin: 10px;
-	text-align: center;
+
 }
 
-.boton img {
-	background-color: black;
-	padding: 2px;
-	border-radius: 3px;
+.integrante { 
+	display: flex;
+	flex-direction: column;
 	
-	width: 30vw;
-	height: 25vh;
+	background-color: yellowgreen;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 0 10px 0 10px;
 }
 
+.integrante img {
+	width: 13vw;
+	height: 29vh;
 
+}
 
 footer { 
 	background-color: #d8d4d5d2;
