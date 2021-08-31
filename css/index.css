@@ -1,3 +1,8 @@
+
+html {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header {
 	/*background-color: #6BD425;*/
 	background-image: url(/imagenes/fondo.png);
@@ -8,6 +13,8 @@ header {
 
 	font-size: xx-large;
 }
+
+
 
 main {
 	height: 100%;
@@ -24,15 +31,24 @@ body {
 	flex-direction:row-reverse;
 	justify-content:space-between;
 	padding: 10px ;
-	min-height: 80px;;
+	min-height: 80px;
 
 }
+.logo img {
+	max-width: 30vw;
+}
+
+nav {
+	
+}
+
 nav a {
 	text-decoration: none;
 	color: black;
 	background-color: whitesmoke;
 	border-radius: 2px;
 	padding: 2px;
+	margin-right: 8px;
 }
 
 nav a:hover{ 
@@ -47,6 +63,7 @@ nav a:hover{
 }
 
 .botones {
+	margin: 20px;
 	display: flex;
 	flex-direction: space-between;
 
