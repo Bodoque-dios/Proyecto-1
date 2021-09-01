@@ -5,7 +5,7 @@ html {
 
 header {
 	/*background-color: #6BD425;*/
-	background-image: url(/imagenes/fondo.png);
+	background-image: url(/imagenes/fondo4.png);
 	background-position: center;
 	background-size:cover;
 	width: 100%;
@@ -29,20 +29,24 @@ body {
 }
 .logo img {
 	max-width: 30vw;
+	max-height: 20vh;
 }
+
 
 nav a {
 	text-decoration: none;
-	color: black;
-	background-color: whitesmoke;
+	color: white;
 	border-radius: 2px;
 	padding: 2px;
 	margin-right: 8px;
+	font-size: 4vw;
 }
 
 nav a:hover{ 
-	background-color: wheat;
+	color: black;
+	background-color: white;
 }
+
 
 main {
 	height: 100%;
@@ -83,7 +87,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	
-	background-color: yellowgreen;
+	background-color:  #0BA13Fff;
 	padding: 8px;
 	border-radius: 5px;
 	margin: 0 10px 0 10px;
@@ -92,7 +96,6 @@ main {
 .integrante img {
 	width: 13vw;
 	height: 29vh;
-
 }
 
 footer { 

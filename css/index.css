@@ -1,11 +1,18 @@
 
+/* 
+$green-pigment: #0BA13Fff;
+$sacramento-state-green-3: #043F2Dff;
+$green-pigment-4: #0BA13Fff;
+
+ */
+
 html {
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
-	/*background-color: #6BD425;*/
-	background-image: url(/imagenes/fondo.png);
+
+	background-image: url(/imagenes/fondo4.png);
 	background-position: center;
 	background-size:cover;
 	width: 100%;
@@ -15,9 +22,10 @@ header {
 }
 
 
-
+/* Arriba | Derecha | Abajo | Izquierda */
 main {
 	height: 100%;
+
 
 }
 
@@ -36,23 +44,21 @@ body {
 }
 .logo img {
 	max-width: 30vw;
-}
-
-nav {
-	
+	max-height: 20vh;
 }
 
 nav a {
 	text-decoration: none;
-	color: black;
-	background-color: whitesmoke;
+	color: white;
 	border-radius: 2px;
 	padding: 2px;
 	margin-right: 8px;
+	font-size: 3vw;
 }
 
 nav a:hover{ 
-	background-color: wheat;
+	color: black;
+	background-color: white;
 }
 
 .titulo {
@@ -63,9 +69,10 @@ nav a:hover{
 }
 
 .botones {
-	margin: 20px;
+
 	display: flex;
 	flex-direction: space-between;
+	
 }
 
 .boton {
@@ -74,17 +81,14 @@ nav a:hover{
 }
 
 .boton img {
-	background-color: black;
-	padding: 2px;
+	background-color: #0BA13Fff;
+	padding: 4px;
 	border-radius: 3px;
 	
 	width: 30vw;
 	height: 25vh;
 }
 
-
-
-footer { 
-	background-color: #d8d4d5d2;
-	height: 100%;
+.boton img:hover {
+	background-color: #043F2Dff;
 }

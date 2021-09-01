@@ -5,7 +5,7 @@ html {
 
 header {
 	/*background-color: #6BD425;*/
-	background-image: url(/imagenes/fondo.png);
+	background-image: url(/imagenes/fondo4.png);
 	background-position: center;
 	background-size:cover;
 	width: 100%;
@@ -34,20 +34,24 @@ body {
 }
 .logo img {
 	max-width: 30vw;
+	max-height: 20vh;
 }
+
 
 nav a {
 	text-decoration: none;
-	color: black;
-	background-color: whitesmoke;
+	color: white;
 	border-radius: 2px;
 	padding: 2px;
 	margin-right: 8px;
+	font-size: 4vw;
 }
 
 nav a:hover{ 
-	background-color: wheat;
+	color: black;
+	background-color: white;
 }
+
 
 .titulo {
 /* 	background-color: #999596d2; */
@@ -58,19 +62,36 @@ nav a:hover{
 
 .info  {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	max-width: 70vw;
 	margin:0 15vw 0 15vw;
 }
+/* Arriba | Derecha | Abajo | Izquierda */
+.info div {
+	margin: 0 3vw 0 3vw;
+}
 
 .info p {
+	font-size: larger;
 	text-align: justify;
+	align-items: center;
+}
+
+.info ol {
+	font-size: larger;
+	text-align: justify;
+	align-items: center;
 }
 
 .info img {
 	max-width: 90vh;
 	align-self: center;
 }	
+
+.fotos img {
+	width: 30vw;
+}
+
 
 footer { 
 	background-color: #d8d4d5d2;
